@@ -63,10 +63,9 @@
         },
         width: window.innerWidth,
                 height: window.innerHeight
-            };
-        },
-        pinType: (document.querySelector(".smooth-scroll").style.transform ? "transform" : "fixed"),
-    });
+            },
+        pinType (document.querySelector(".smooth-scroll").style.transform ? "transform" : "fixed"),
+    );
 
     const coef = 100;
     const vw = (cover) => window.innerWidth * (coef / 100);
